@@ -2,14 +2,14 @@
   "hero": {
     "title": "Juan José Burbano",
     "subtitle": "Construyendo software robusto, seguro y escalable",
-    "description": "Estudiante de Ingeniería de Software enfocado en el desarrollo de soluciones backend de alto nivel, con especialización en arquitectura de software, seguridad y calidad. Apasionado por crear sistemas robustos, escalables y eficientes.",
+    "description": "Estudiante de Ingeniería de Software enfocado en el desarrollo de soluciones backend de alto nivel, con enfoque en arquitectura de software, seguridad y calidad. Apasionado por crear sistemas robustos, escalables y eficientes.",
     "portfolio": "Ver Portafolio",
     "downloadCV": "Descargar CV"
   },
   "about": {
     "title": "Sobre Mí",
-    "description1": "Soy un desarrollador de software especializado en la creación de aplicaciones robustas y seguras. Mi enfoque se centra en la arquitectura de software, el desarrollo backend con Java, y la implementación de prácticas de QA para garantizar la calidad del código.",
-    "description2": "Mi objetivo es convertirme en un arquitecto de software de élite, con un fuerte énfasis en la ciberseguridad y las mejores prácticas de desarrollo."
+    "description1": "Soy estudiante de ingeniería de software enfocado en la creación de aplicaciones robustas y seguras. Mi enfoque se centra en la arquitectura de software, el desarrollo backend con Java, y la implementación de prácticas de QA para garantizar la calidad del código.",
+    "description2": "Mi objetivo es convertirme en un arquitecto de software, con un fuerte énfasis en la ciberseguridad y las mejores prácticas de desarrollo."
   },
   "projects": {
     "title": "Proyectos Destacados",

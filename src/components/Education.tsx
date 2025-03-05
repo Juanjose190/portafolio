@@ -67,7 +67,7 @@ const Education = () => {
               <div className="border-l-4 border-[#E94560] pl-4">
                 <h4 className="text-xl font-semibold">{t('education.javaCert.title')}</h4>
                 <p className="text-gray-300">{t('education.javaCert.institution')}</p>
-                <p className="text-gray-300">{t('education.javaCert.year')}</p>
+                <p className="text-gray-300">{t('education.javaCert.year')}hola</p>
               </div>
             </div>
           </motion.div>

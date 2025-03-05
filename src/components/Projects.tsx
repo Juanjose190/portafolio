@@ -15,7 +15,7 @@ const Projects = () => {
       title: t('projects.scheduler.title'),
       description: t('projects.scheduler.description'),
       image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80",
-      tech: ["Java", "Spring Boot", "Angular", "PostgreSQL"]
+      tech: ["Java", "Spring Boot", "React", "TypeScript", "Tailwind", "MySQL", "Cloud"]
     },
     {
       title: t('projects.pos.title'),
