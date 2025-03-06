@@ -1,8 +1,8 @@
 {
   "hero": {
-    "title": "Juan José Burbano",
+    "title": "{Juanjo}",
     "subtitle": "Construyendo software robusto, seguro y escalable",
-    "description": "Estudiante de Ingeniería de Software enfocado en el desarrollo de soluciones backend de alto nivel, con enfoque en arquitectura de software, seguridad y calidad. Apasionado por crear sistemas robustos, escalables y eficientes.",
+    "description": "Estudiante de Ingeniería de Software con experiencia en desarrollo backend. Interesado en arquitectura de software, seguridad y calidad, busco crear sistemas robustos y eficientes.",
     "portfolio": "Ver Portafolio",
     "downloadCV": "Descargar CV"
   },
@@ -51,7 +51,16 @@
         "selenium": "Selenium",
         "e2e": "Testing E2E"
       }
+    },
+
+    "others": {
+      "title": "Otros",
+      "skills": {
+        "Vercel": "Vercel"
+      }
     }
+
+    
   },
   "education": {
     "title": "Formación Académica",

@@ -38,7 +38,16 @@ const Skills = () => {
         { name: t('skills.testing.skills.selenium'), level: 70 },
         { name: t('skills.testing.skills.e2e'), level: 75 }
       ]
+    },
+
+    {
+      category: t('skills.others.title'),
+      icon: <Terminal className="w-6 h-6" />,
+      items: [
+        { name: t('skills.others.skills.Vercel'), level: 80 },
+      ]
     }
+    
   ];
 
   return (

@@ -120,6 +120,8 @@ const Contact = () => {
         </motion.div>
       </div>
     </section>
+
+    
   );
 };
 

@@ -1,14 +1,14 @@
 {
   "hero": {
-    "title": "Juan José Burbano",
+    "title": "{Juanjo}",
     "subtitle": "Building robust, secure, and scalable software",
-    "description": "Software Engineering student focused on high-level backend development, with an emphasis on software architecture, security, and quality. Passionate about creating robust, scalable, and efficient systems.",
+    "description": "Software Engineering student with backend development experience. Interested in software architecture, security, and quality, seeking to build robust and efficient systems.",
     "portfolio": "View Portfolio",
     "downloadCV": "Download CV"
   },
   "about": {
     "title": "About Me",
-    "description1": "I am a software developer specialized in creating robust and secure applications. My focus is on software architecture, backend development with Java, and implementing QA practices to ensure code quality.",
+    "description1": "I am a Software Engineering student specialized in creating robust and secure applications. My focus is on software architecture, backend development with Java, and implementing QA practices to ensure code quality.",
     "description2": "My goal is to become a software architect, with a strong emphasis on cybersecurity and development best practices."
   },
   "projects": {
@@ -40,7 +40,7 @@
       "title": "Frontend Development",
       "skills": {
         "react": "React",
-        "angular": "Angular",
+        "angular": "Tailwind",
         "typescript": "TypeScript"
       }
     },
@@ -50,6 +50,13 @@
         "junit": "JUnit",
         "selenium": "Selenium",
         "e2e": "E2E Testing"
+      }
+    },
+
+    "others": {
+      "title": "Others",
+      "skills": {
+        "Vercel": "Vercel"
       }
     }
   },
