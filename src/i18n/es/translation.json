@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "title": "{Juanjo}",
+    "subtitle": "Construyendo software robusto, seguro y escalable",
+    "description": "Estudiante de Ingeniería de Software con experiencia en desarrollo backend. Interesado en arquitectura de software, seguridad y calidad, busco crear sistemas robustos y eficientes.",
+    "portfolio": "Ver Portafolio",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description1": "Soy estudiante de ingeniería de software enfocado en la creación de aplicaciones robustas y seguras. Mi enfoque se centra en la arquitectura de software, el desarrollo backend con Java, y la implementación de prácticas de QA para garantizar la calidad del código. Mis principales skills están en backend, pero siempre dispuesto a aprender nuevas tecnologías FrontEnd.",
+    "description2": "Mi objetivo es convertirme en un arquitecto de software, con un fuerte énfasis en la ciberseguridad y las mejores prácticas de desarrollo.",
+    "description3": "Me apasiona la música y disfruto tocar la guitarra en mi tiempo libre. También me gusta leer, siempre buscando aprender algo nuevo o perderme en una buena historia. La tecnología y el desarrollo de software son mi camino, pero hey, ¡No todo es código!"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "scheduler": {
+      "title": "Generador de Horarios Escolares",
+      "description": "Sistema automatizado para la generación de horarios escolares sin conflictos, utilizando algoritmos avanzados e IA."
+    },
+    "pos": {
+      "title": "Sistema de Ventas para Supermercado",
+      "description": "Aplicación completa para gestión de ventas, inventario y facturación con reportes detallados."
+    },
+    "landing": {
+      "title": "Landing Page - Materiales de Construcción",
+      "description": "Página web moderna y responsive para una tienda de materiales de construcción."
+    }
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "backend": {
+      "title": "Desarrollo Backend",
+      "skills": {
+        "java": "Java",
+        "spring": "Spring Boot",
+        "mysql": "MySQL"
+      }
+    },
+    "frontend": {
+      "title": "Desarrollo Frontend",
+      "skills": {
+        "react": "React (en aprendizaje)",
+        "angular": "Tailwind (en aprendizaje)",
+        "typescript": "TypeScript (en aprendizaje)"
+      }
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "skills": {
+        "junit": "JUnit",
+        "selenium": "Selenium",
+        "e2e": "Testing E2E"
+      }
+    },
+    "others": {
+      "title": "Otros",
+      "skills": {
+        "Vercel": "Vercel"
+      }
+    }
+  },
+  "education": {
+    "title": "Formación Académica",
+    "degree": "Ingeniería de Software",
+    "progress": "Actualmente cursando el 5to semestre de 8",
+    "progressLabel": "Progreso",
+    "certifications": "Certificaciones",
+    "javaCert": {
+      "title": "Certificación en Java",
+      "institution": "Universidad Mariana - Pasto, Nariño",
+      "year": "2021"
+    }
+  },
+  "contact": {
+    "title": "¿Quieres hablar conmigo? Hablemos.",
+    "name": "Nombre",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "sent": "Mensaje Enviado",
+    "error": "Error al enviar"
+  }
+}

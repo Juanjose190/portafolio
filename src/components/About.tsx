@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { useTranslation } from 'react-i18next'; 
 
 const About = () => {
+  const { t } = useTranslation(); 
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -19,16 +21,10 @@ const About = () => {
           className="grid md:grid-cols-2 gap-12 items-center"
         >
           <div>
-            <h2 className="text-4xl font-bold mb-6">Sobre Mí</h2>
-            <p className="text-lg mb-6">
-              Soy un desarrollador de software especializado en la creación de aplicaciones robustas y seguras. 
-              Mi enfoque se centra en la arquitectura de software, el desarrollo backend con Java, y la implementación 
-              de prácticas de QA para garantizar la calidad del código.
-            </p>
-            <p className="text-lg mb-6">
-              Mi objetivo es convertirme en un arquitecto de software de élite, con un fuerte énfasis en la 
-              ciberseguridad y las mejores prácticas de desarrollo.
-            </p>
+            <h2 className="text-4xl font-bold mb-6">{t('about.title')}</h2>
+            <p className="text-lg mb-6">{t('about.description1')}</p>
+            <p className="text-lg mb-6">{t('about.description2')}</p>
+            <p className="text-lg mb-6">{t('about.description3')}</p>
           </div>
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden">

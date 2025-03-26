@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "title": "{Juanjo}",
+    "subtitle": "Building robust, secure, and scalable software",
+    "description": "Software Engineering student with backend development experience. Interested in software architecture, security, and quality, seeking to build robust and efficient systems.",
+    "portfolio": "View Portfolio",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I am a Software Engineering student specialized in creating robust and secure applications. My focus is on software architecture, backend development with Java, and implementing QA practices to ensure code quality. My main skills are in backend, but I am always willing to learn new front-end technologies.",
+    "description2": "My goal is to become a software architect, with a strong emphasis on cybersecurity and development best practices.",
+    "description3": "I'm passionate about music and enjoy playing the guitar in my free time. I also love reading, always looking to learn something new or get lost in a good story. Technology and software development are my path, but hey, it's not all about code!"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "scheduler": {
+      "title": "School Schedule Generator",
+      "description": "Automated system for generating conflict-free school schedules using advanced algorithms and AI."
+    },
+    "pos": {
+      "title": "Supermarket POS System",
+      "description": "Complete application for sales management, inventory, and billing with detailed reports."
+    },
+    "landing": {
+      "title": "Landing Page - Construction Materials",
+      "description": "Modern and responsive website for a construction materials store."
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "backend": {
+      "title": "Backend Development",
+      "skills": {
+        "java": "Java",
+        "spring": "Spring Boot",
+        "mysql": "MySQL"
+      }
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "skills": {
+        "react": "React (I'm Learning)",
+        "angular": "Tailwind (I'm Learning)",
+        "typescript": "TypeScript (I'm Learning)"
+      }
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "skills": {
+        "junit": "JUnit",
+        "selenium": "Selenium",
+        "e2e": "E2E Testing"
+      }
+    },
+    "others": {
+      "title": "Others",
+      "skills": {
+        "Vercel": "Vercel"
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Software Engineering",
+    "progress": "Currently in 5th semester of 8",
+    "progressLabel": "Progress",
+    "certifications": "Certifications",
+    "javaCert": {
+      "title": "Java Certification",
+      "institution": "Universidad Mariana - Pasto, Nariño",
+      "year": "2021"
+    }
+  },
+  "contact": {
+    "title": "Want to talk? Let's chat.",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "sent": "Message Sent",
+    "error": "Error sending"
+  }
+}
