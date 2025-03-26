@@ -2,42 +2,44 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code2, Database, Layout, Server, Terminal } from 'lucide-react';
-
-const skills = [
-  {
-    category: "Desarrollo Backend",
-    icon: <Server className="w-6 h-6" />,
-    items: [
-      { name: "Java", level: 85 },
-      { name: "Spring Boot", level: 80 },
-      { name: "MySQL", level: 75 }
-    ]
-  },
-  {
-    category: "Desarrollo Frontend",
-    icon: <Layout className="w-6 h-6" />,
-    items: [
-      { name: "React", level: 70 },
-      { name: "Angular", level: 65 },
-      { name: "TypeScript", level: 75 }
-    ]
-  },
-  {
-    category: "Testing & QA",
-    icon: <Terminal className="w-6 h-6" />,
-    items: [
-      { name: "JUnit", level: 80 },
-      { name: "Selenium", level: 70 },
-      { name: "Testing E2E", level: 75 }
-    ]
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+  const { t } = useTranslation();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
+
+  const skills = [
+    {
+      category: t('skills.backend.title'),
+      icon: <Server className="w-6 h-6" />,
+      items: [
+        { name: t('skills.backend.skills.java'), level: 85 },
+        { name: t('skills.backend.skills.spring'), level: 80 },
+        { name: t('skills.backend.skills.mysql'), level: 75 }
+      ]
+    },
+    {
+      category: t('skills.frontend.title'),
+      icon: <Layout className="w-6 h-6" />,
+      items: [
+        { name: t('skills.frontend.skills.react'), level: 70 },
+        { name: t('skills.frontend.skills.angular'), level: 65 },
+        { name: t('skills.frontend.skills.typescript'), level: 75 }
+      ]
+    },
+    {
+      category: t('skills.testing.title'),
+      icon: <Terminal className="w-6 h-6" />,
+      items: [
+        { name: t('skills.testing.skills.junit'), level: 80 },
+        { name: t('skills.testing.skills.selenium'), level: 70 },
+        { name: t('skills.testing.skills.e2e'), level: 75 }
+      ]
+    }
+  ];
 
   return (
     <section id="skills" className="py-20 bg-[#0F3460]">
@@ -48,7 +50,7 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-center mb-12"
         >
-          Habilidades Técnicas
+          {t('skills.title')}
         </motion.h2>
         <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skillGroup, groupIndex) => (

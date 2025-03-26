@@ -1,33 +1,35 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
-const projects = [
-  {
-    title: "Generador de Horarios Escolares",
-    description: "Sistema automatizado para la generación de horarios escolares sin conflictos, utilizando algoritmos avanzados e IA.",
-    image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80",
-    tech: ["Java", "Spring Boot", "Angular", "PostgreSQL"]
-  },
-  {
-    title: "Sistema de Ventas para Supermercado",
-    description: "Aplicación completa para gestión de ventas, inventario y facturación con reportes detallados.",
-    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&q=80",
-    tech: ["Java", "MySQL", "JasperReports", "Swing"]
-  },
-  {
-    title: "Landing Page - Materiales de Construcción",
-    description: "Página web moderna y responsive para una tienda de materiales de construcción.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80",
-    tech: ["React", "Tailwind CSS", "TypeScript"]
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t } = useTranslation();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
+
+  const projects = [
+    {
+      title: t('projects.scheduler.title'),
+      description: t('projects.scheduler.description'),
+      image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80",
+      tech: ["Java", "Spring Boot", "Angular", "PostgreSQL"]
+    },
+    {
+      title: t('projects.pos.title'),
+      description: t('projects.pos.description'),
+      image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&q=80",
+      tech: ["Java", "MySQL", "JasperReports", "Swing"]
+    },
+    {
+      title: t('projects.landing.title'),
+      description: t('projects.landing.description'),
+      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80",
+      tech: ["React", "Tailwind CSS", "TypeScript"]
+    }
+  ];
 
   return (
     <section id="projects" className="py-20 bg-[#1A1A2E]">
@@ -38,7 +40,7 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl font-bold text-center mb-12"
         >
-          Proyectos Destacados
+          {t('projects.title')}
         </motion.h2>
         <div ref={ref} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (

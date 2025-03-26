@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FileDown } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
   const [text, setText] = useState('');
-  const fullText = "Construyendo software robusto, seguro y escalable";
+  const fullText = t('hero.subtitle');
   
   useEffect(() => {
     let currentIndex = 0;
@@ -19,7 +21,7 @@ const Hero = () => {
     }, 50);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [fullText]);
 
   return (
     <div className="relative h-screen flex items-center justify-center">
@@ -33,12 +35,10 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl md:text-7xl font-bold mb-6">Juan José Burbano</h1>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6">{t('hero.title')}</h1>
         <p className="text-xl md:text-2xl mb-8 h-8">{text}</p>
         <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto">
-          Estudiante de Ingeniería de Software enfocado en el desarrollo de soluciones backend de alto nivel, con especialización en arquitectura de software, seguridad y calidad. Apasionado por crear sistemas robustos, escalables y eficientes.
-
-Ver Portafolio
+          {t('hero.description')}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link 
@@ -48,18 +48,16 @@ Ver Portafolio
             offset={-50}
             className="bg-[#E94560] hover:bg-[#E94570] text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 cursor-pointer"
           >
-            Ver Portafolio
+            {t('hero.portfolio')}
           </Link>
-    <a 
-  href="/CV.pdf"
-  download="JuanJose_CV.pdf"
-  className="flex items-center gap-2 bg-transparent hover:bg-white/10 text-white font-bold py-3 px-8 rounded-full border-2 border-white transition-all duration-300 transform hover:scale-105"
->
-  <FileDown className="w-5 h-5" />
-  Descargar CV
-</a>
-
-
+          <a 
+            href="/Final CV.pdf"
+            download="JuanJose_CV.pdf"
+            className="flex items-center gap-2 bg-transparent hover:bg-white/10 text-white font-bold py-3 px-8 rounded-full border-2 border-white transition-all duration-300 transform hover:scale-105"
+          >
+            <FileDown className="w-5 h-5" />
+            {t('hero.downloadCV')}
+          </a>
         </div>
       </motion.div>
     </div>
