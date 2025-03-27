@@ -17,26 +17,26 @@ const Skills = () => {
       icon: <Server className="w-6 h-6" />,
       items: [
         { name: t('skills.backend.skills.java'), level: 85 },
-        { name: t('skills.backend.skills.spring'), level: 80 },
-        { name: t('skills.backend.skills.mysql'), level: 75 }
+        { name: t('skills.backend.skills.spring'), level: 59 },
+        { name: t('skills.backend.skills.mysql'), level: 50 }
       ]
     },
     {
       category: t('skills.frontend.title'),
       icon: <Layout className="w-6 h-6" />,
       items: [
-        { name: t('skills.frontend.skills.react'), level: 70 },
-        { name: t('skills.frontend.skills.angular'), level: 65 },
-        { name: t('skills.frontend.skills.typescript'), level: 75 }
+        { name: t('skills.frontend.skills.react'), level: 60 },
+        { name: t('skills.frontend.skills.angular'), level: 60 },
+        { name: t('skills.frontend.skills.typescript'), level: 60 }
       ]
     },
     {
       category: t('skills.testing.title'),
       icon: <Terminal className="w-6 h-6" />,
       items: [
-        { name: t('skills.testing.skills.junit'), level: 80 },
+        { name: t('skills.testing.skills.junit'), level: 70 },
         { name: t('skills.testing.skills.selenium'), level: 70 },
-        { name: t('skills.testing.skills.e2e'), level: 75 }
+        { name: t('skills.testing.skills.e2e'), level: 65 }
       ]
     }
   ];
