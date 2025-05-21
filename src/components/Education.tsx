@@ -19,7 +19,8 @@ const Education = () => {
     delay: i * 0.1,
     x: 40 + Math.random() * 40,
     y: 100 - (i / particleCount) * 60 * progressDecimal,
-    size: 2 + Math.random() * 3
+    size: 2 + Math.random() * 3,
+    xOffset: Math.sin(i * 0.5) * 5 
   }));
 
   const certifications = [
@@ -183,11 +184,11 @@ const Education = () => {
                     cy={particle.y}
                     r={particle.size}
                     fill="#E94560"
-                    initial={{ opacity: 0, y: 10 }}
+                    initial={{ opacity: 0, y: 0 }}
                     animate={{ 
                       opacity: [0, 0.8, 0],
                       y: [0, -15, -30],
-                      x: (i) => [particle.x, particle.x + Math.sin(i*0.5)*5]
+                      x: [particle.x, particle.x + particle.xOffset, particle.x]
                     }}
                     transition={{ 
                       duration: 3,
