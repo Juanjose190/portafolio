@@ -56,7 +56,7 @@ const Hero = () => {
             {t('hero.portfolio')}
           </Link>
           <a 
-            href="/CV.pdf"
+            href="/cv ver2.pdf"
             download="JuanJose_CV.pdf"
             className="flex items-center gap-2 bg-transparent hover:bg-white/10 text-white font-bold py-3 px-8 rounded-full border-2 border-white transition-all duration-300 transform hover:scale-105"
           >
