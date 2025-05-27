@@ -22,8 +22,8 @@ const Contact = () => {
     try {
       setStatus('sending');
       await emailjs.sendForm(
-        'service_v5n6yn9',
-        'template_38n0v0j',
+        'service_2l2vxm7',
+        'template_ci3prwp',
         formRef.current,
         '_5WRvmu42yilw6ARD'
       );
