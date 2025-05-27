@@ -30,7 +30,7 @@ const Projects = () => {
         { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
         { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" }
       ],
-      github: "https://github.com/Juanjose190/Sistema-Pos"
+      github: "https://github.com/Juanjose190/Sistema-Pos.git"
     },
     {
       title: t('projects.landing.title'),
