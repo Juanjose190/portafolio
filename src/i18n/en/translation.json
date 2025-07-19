@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Juan José Burbano",
+    "subtitle": "Building robust, secure, and scalable software",
+    "description": "Software Engineering student focused on developing high-level backend solutions, with a focus on software architecture, DevOps, and cloud computing. Passionate about creating robust, scalable, and efficient systems.",
+    "portfolio": "View Portfolio",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I am a software developer specialized in creating robust and secure applications. My focus is on software architecture, backend development with Java, and implementing QA practices to ensure code quality.",
+    "description2": "My goal is to become an elite software architect, with a strong emphasis on cybersecurity and development best practices."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "scheduler": {
+      "title": "Electronic Medical Records and Appointment Management System",
+      "description": "A system for clinics that includes patient registration, medical history, appointment scheduling, notifications, digital document signing, and medical record uploading via AWS. It includes security with Spring Security."
+    },
+    "pos": {
+      "title": "Supermarket POS System",
+      "description": "Complete application for sales management, inventory, and billing with detailed reports."
+    },
+    "landing": {
+      "title": "Landing Page - Construction Materials",
+      "description": "Modern and responsive website for a construction materials store."
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "backend": {
+      "title": "Backend Development",
+      "skills": {
+        "java": "Java",
+        "spring": "Spring Boot",
+        "mysql": "MySQL"
+      }
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "skills": {
+        "react": "React",
+        "tailwind": "Tailwind Css",
+        "typescript": "TypeScript"
+      }
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "skills": {
+        "junit": "JUnit",
+        "selenium": "Selenium",
+        "e2e": "E2E Testing"
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Software Engineering",
+    "progress": "Currently in 5th semester of 8",
+    "progressLabel": "Progress",
+    "certifications": "Certifications",
+    "javaCert": {
+      "title": "Java Certification",
+      "institution": "Universidad Mariana - Pasto, Nariño",
+      "year": "2021"
+    },
+    "javaUdemyCert": {
+      "title": "Complete Java Course: From Zero to Master",
+      "institution": "Udemy",
+      "year": "2025"
+    },
+    "nodeCert": {
+      "title": "Node.js Development: Application, Testing and Security",
+      "institution": "Udemy",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "Want to talk? Let's chat.",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "sent": "Message Sent",
+    "error": "Error sending"
+  }
+}
